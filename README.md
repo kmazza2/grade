@@ -7,8 +7,9 @@ John,Boyle,38291,,9
 Bob,Palermo,91823,0,
 Lucy,Burke,11928,,
 John,Santora,83921,3,9
+
 $ python3 grade.py 
-Path to grades csv: 
+Path to grades csv: <TAB><TAB>
 grade.py  README.md test.csv 
 Path to grades csv: te<TAB>
 test.csv
