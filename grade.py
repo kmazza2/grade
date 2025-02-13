@@ -43,7 +43,7 @@ while not os.path.isfile(path):
     print('File does not exist.')
     print()
     path = input(GREEN + 'Path to grades csv: ' + RESET).strip()
-with open(path, mode='r', newline='') as original_csv:
+with open(path, mode='r', newline='', encoding='utf-8-sig') as original_csv:
     data = [record for record in csv.DictReader(original_csv)]
     if not data:
         raise Exception('No data.')
